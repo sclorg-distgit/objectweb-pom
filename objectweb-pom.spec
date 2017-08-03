@@ -3,7 +3,7 @@
 
 Name:           %{?scl_prefix}objectweb-pom
 Version:        1.5
-Release:        5.1%{?dist}
+Release:        5.2%{?dist}
 Summary:        Objectweb POM
 BuildArch:      noarch
 License:        ASL 2.0
@@ -32,6 +32,9 @@ cp -p %{SOURCE1} LICENSE
 %doc LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.5-5.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.5-5.1
 - Automated package import and SCL-ization
 
